@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMPE 277 Assgn5</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pdfservice">PDF List Download</string>
+    <string name="title_activity_image_service">Image List Download</string>
+    <string name="title_activity_text_service">Text List Download</string>
+    <string name="pdf">HardCoded PDF Files Path</string>
+    <string name="pdf1">http://www.sjsu.edu/gradstudies/docs/final_submission_checklist.pdf</string>
+    <string name="pdf2">http://library.sjsu.edu/files/documents/oajournallist.pdf</string>
+    <string name="pdf3">http://www.sjsu.edu/registrar/docs/CloudComputing_SJSUGuidelines.pdf</string>
+    <string name="pdf4">http://www.sjsu.edu/cfd/docs/intro_indesign_cs4.pdf</string>
+    <string name="pdf5">http://www.sjsu.edu/gradstudies/docs/thesis_guidelines.pdf</string>
+    <string name="img1">http://www.sjsu.edu/sjsuhome/pics/statues-02.jpg</string>
+    <string name="img2">http://www.sjsu.edu/sjsuhome/pics/housing.jpg</string>
+    <string name="img3">http://collegefootballzealots.com/images/stories/SJSU%20Logo.gif</string>
+    <string name="img4">http://upload.wikimedia.org/wikipedia/en/thumb/d/d3/SJSU_Seal.svg/218px-SJSU_Seal.svg.png</string>
+    <string name="img5">http://www.sjsu.edu/ugs/pics/san_jose_state_university-2.jpg</string>
+    <string name="txt1">http://www.engr.sjsu.edu/lwesley/teaching/ENGR297B/ExamAnswers/quiz1_answer.txt</string>
+    <string name="txt2">http://www.engr.sjsu.edu/lwesley/teaching/ENGR297B/ExamAnswers/redo_quiz1_answer.txt</string>
+    <string name="txt3">http://www.engr.sjsu.edu/bjfurman/courses/ME30/source/Matlab_examples.txt</string>
+    <string name="txt4">http://www.engr.sjsu.edu/bjfurman/courses/ME30/source/US_surf_air_temp_5yr_anomaly_w_header.txt</string>
+    <string name="txt5">http://www.engr.sjsu.edu/bjfurman/courses/ME30/source/US_surf_air_temp_5yr_anomaly.txt</string>
+    <string name="localServiceWithAutoCreate">Local Service with AUTO_CREATE</string>
+    <string name="localServiceWithActivity">Local Service with BIND_ACTIVITY</string>
+    <string name="bindAsync">Bind Service Async</string>
+    <string name="bindSync">Bind Service Sync</string>
+    <string name="download">Begin Download</string>
+    <string name="btnPDFFile">PDF File Download</string>
+    <string name="btnTXTFile">Text File Download</string>
+    <string name="btnImageFile">Image File Download</string>
+    <string name="close">Close</string>
+
+</resources>

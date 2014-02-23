@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context=".ListImageFilesActivity" >
+
+    <TextView
+        android:id="@+id/textView1Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_activity_image_service"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/rdgImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startImageDownload"
+        android:layout_centerHorizontal="true" >
+        
+         <RadioButton
+            android:id="@+id/rdImgLocalServiceWithAutoCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:checked="true"
+            android:text="@string/localServiceWithAutoCreate"
+            />
+
+        <RadioButton
+            android:id="@+id/rdImgLocalServiceWithBindActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:checked="true"
+            android:text="@string/localServiceWithActivity" />
+
+        <RadioButton
+            android:id="@+id/rdImgBindServiceAsync"
+            android:layout_width="wrap_content"
+			android:layout_height="35dp"
+            android:textSize="15sp"
+            android:text="@string/bindAsync" />
+
+        <RadioButton
+            android:id="@+id/rdImgBindServiceSync"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:text="@string/bindSync"  />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/startImageDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="startImageDownload"
+        android:text="Start Download" />
+
+    <EditText
+        android:id="@+id/editImage5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editImage4"
+        android:layout_alignLeft="@+id/editImage4"
+        android:layout_alignRight="@+id/editImage4"
+        android:ems="10"
+        android:hint="URL"
+        android:text="@string/img5"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/editImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editImage5"
+        android:layout_alignLeft="@+id/editImage5"
+        android:layout_alignRight="@+id/editImage5"
+        android:ems="10"
+        android:hint="URL"
+        android:text="@string/img2"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/editImage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editImage2"
+        android:layout_alignLeft="@+id/editImage2"
+        android:layout_alignRight="@+id/editImage2"
+        android:ems="10"
+        android:hint="URL"
+        android:text="@string/img3"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/editImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editImage3"
+        android:layout_alignLeft="@+id/editImage3"
+        android:layout_alignRight="@+id/editImage3"
+        android:ems="10"
+        android:hint="URL"
+        android:text="@string/img1"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/editImage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rdgImage"
+        android:layout_alignLeft="@+id/rdgImage"
+        android:layout_alignRight="@+id/rdgImage"
+        android:ems="10"
+        android:hint="URL"
+        android:text="@string/img4"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/buttonCloseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startImageDownload"
+        android:layout_alignBottom="@+id/startImageDownload"
+        android:layout_alignRight="@+id/rdgImage"
+        android:onClick="goBackToMainActivity"
+        android:text="Close" />
+
+</RelativeLayout>
